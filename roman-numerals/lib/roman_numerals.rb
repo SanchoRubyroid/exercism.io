@@ -6,7 +6,7 @@ class Fixnum
 
   def to_roman
     string_of_digits = self.to_s
-    level = string_digit.size - 1
+    level = string_of_digits.size - 1
     roman = ''
 
     string_of_digits.each_char do |digit|
